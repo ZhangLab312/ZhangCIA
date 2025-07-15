@@ -1,14 +1,14 @@
-# scLTCIA: Single-Cell Long-Tail Class-Incremental Annotation Framework
+# Single-Cell Long-Tail Class-Incremental Annotation Framework
 
-![scLTCIA Framework](https://github.com/ZhangLab312/scLTCIA/blob/main/images/framwork.png?raw=true)
+![Framework](https://github.com/ZhangLab312/ZhangCIA/blob/main/images/framwork.png?raw=true)
 
-*Figure 1: The proposed scLTCIA framework for incremental annotation of single-cell data.*
+*Figure 1: The proposed ZhangCIA framework for incremental annotation of single-cell data.*
 
 ---
 
 ## 📜 Abstract
 
-Single-cell type annotation faces critical challenges in real-world scenarios, including catastrophic forgetting, high-dimensional sparsity, and extreme class imbalance. This paper introduces **scLTCIA**, a novel framework that synergizes **distribution-aware generative replay** and **expression-aware knowledge distillation** to enable robust continual learning of novel cell types while preserving knowledge of previously learned types. Through extensive experiments on five scRNA-seq datasets, scLTCIA achieves state-of-the-art performance in both ordered and shuffled incremental annotation tasks, outperforming existing methods by up to **9.47%** in rare-type accuracy.
+Single-cell type annotation faces critical challenges in real-world scenarios, including catastrophic forgetting, high-dimensional sparsity, and extreme class imbalance. This paper introduces **ZhangCIA**, a novel framework that synergizes **distribution-aware generative replay** and **expression-aware knowledge distillation** to enable robust continual learning of novel cell types while preserving knowledge of previously learned types. Through extensive experiments on five scRNA-seq datasets, ZhangCIA achieves state-of-the-art performance in both ordered and shuffled incremental annotation tasks, outperforming existing methods by up to **9.47%** in rare-type accuracy.
 
 ---
 
@@ -57,6 +57,6 @@ This collection includes five widely used human single-cell transcriptomic datas
 - **Vento** (Nature, 2018): Early maternal–fetal interface  
 - **Zheng68k** (Nature Communications, 2017): PBMC profiling with 10x Genomics
 
-These datasets have been preprocessed and harmonized to support evaluation in **long-tailed** and **class-incremental** annotation tasks, as used in our **scLTCIA** framework.
+These datasets have been preprocessed and harmonized to support evaluation in **long-tailed** and **class-incremental** annotation tasks, as used in our **ZhangCIA** framework.
 
 Please cite the original publications when using these datasets.
